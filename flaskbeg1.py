@@ -2,6 +2,7 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 # added comments
+# added more comments
 
 @app.route('/')
 @app.route('/home')
